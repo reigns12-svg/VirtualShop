@@ -1,0 +1,28 @@
+.products-heading{
+    text-align:center;
+}
+.products-row{
+    margin-left:12%;
+    
+}
+.products-coulmn{
+   display:inline-block;
+   
+}
+
+@media (max-width:700px){
+    .products-coulmn{
+        width:80%;
+    }
+}
+@media (min-width:701px ) and (max-width:999px){
+    .products-coulmn{
+        width:45%;
+    }
+}
+@media (min-width:1000px)
+{
+    .products-coulmn{
+        width:30%;
+    }
+}

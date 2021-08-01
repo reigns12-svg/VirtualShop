@@ -1,0 +1,28 @@
+.product-list-heading-col{
+    display:inline-block;
+    padding-right:50px;
+    
+}
+.product-list-btn-col{
+    display:inline-block;
+    padding-bottom:50px;
+}
+.product-create-button{
+    margin:25px 0 0 0;
+    padding:8px 15px 8px 15px;
+    border:none;
+    color: #f1ffff;
+    background-color: #4000ff;
+    /* color:black;
+    background-color:yellow; */
+    font-size:1.1em;
+    font-family: 'Jura', sans-serif;
+    font-weight:bold;
+}
+.edit-list-link{
+    margin:30px;
+}
+.edit-list-link a{
+    text-decoration: none;
+    font-weight: bold;
+}

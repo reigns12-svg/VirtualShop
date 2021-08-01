@@ -1,0 +1,35 @@
+.userscreen{
+    margin-left:10%;
+    margin-bottom:300px;
+}
+.fa-edit{
+    padding-right:3px;
+}
+.deleteUser-button{
+background-color: white;
+border:none;
+}
+.fa-trash{
+color:red;
+}
+.userscreen a{
+    text-decoration: none;
+}
+.user-list-tables{
+text-align:center;
+}
+.table-spacing{
+    font-weight: 600;
+    padding: 0 20px 20px 5px;
+    background-color: 	#F0F0F0;
+}
+@media (max-width:600px)
+{
+    .userscreen{
+        margin-left:10px;
+    }
+    .table-spacing{
+        
+        padding-right:5px;
+    }
+}

@@ -1,0 +1,12 @@
+.image-product{
+    height:300px;
+    width:70%;
+    margin-bottom:10px;
+}
+.product-card{
+    padding:50px 0 50px 0;
+}
+.product-card a{
+   
+    text-decoration: none;
+}

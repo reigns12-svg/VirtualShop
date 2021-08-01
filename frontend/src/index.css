@@ -1,0 +1,10 @@
+.mainBody{
+    font-family: 'Jura', sans-serif;
+    min-height:80vh;
+}
+body{
+    margin:0;
+}
+.foot{
+    text-align:center;
+}

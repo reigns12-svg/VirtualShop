@@ -1,0 +1,39 @@
+.searchbox{
+    display:inline-block;
+   margin:13px 0 0 60px;
+   width:40%;
+}
+.searchbox input{
+    border:none;
+    padding:4px;
+    border-radius:7px;
+    margin-right:10px;
+    font-family: 'Jura', sans-serif;
+    font-weight:600;
+    width:60%;
+    height:20px;
+}
+.search-btn{
+    font-family: 'Jura', sans-serif;
+    font-weight:600;
+    height:30px;
+    
+}
+@media (max-width:950px){
+    .searchbox {
+        margin:13px 0 0 10px;
+        width:30%;
+    }
+}
+@media (max-width:750px){
+    .searchbox {
+        margin:13px 0 0 30px;
+        width:50%;
+    }
+}
+@media (max-width:480px){
+    .searchbox {
+        margin:13px 0 20px 30px;
+        width:90%;
+    }
+}

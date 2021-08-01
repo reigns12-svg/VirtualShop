@@ -1,0 +1,55 @@
+.sign-in-form{
+    margin:50px 0 300px 50px;
+    padding :0 0 0 10%;
+}
+.sign-in-form label{
+    font-weight: bold;
+    display:inline-block;
+    min-width:140px;
+}
+.email-holder{
+    margin:0 0 25 px 0;
+}
+.password-holder{
+    margin:0 0 25px 0;
+}
+.email-holder input{
+    height:20px;
+    width:50%;
+    background-color:#D8D8D8;
+    color:black;
+    border:none;
+    padding:5px;
+}
+.password-holder input{
+    height:20px;
+    width:50%;
+    background-color:#D8D8D8;
+    color:black;
+    border:none;
+    padding:5px;
+}
+.submit-btn{
+    margin:25px 0 0 0;
+    padding:8px 15px 8px 15px;
+    border:none;
+    color: #f1ffff;
+    background-color: #4000ff;
+    /* color:black;
+    background-color:yellow; */
+    font-size:1.1em;
+    font-family: 'Jura', sans-serif;
+    font-weight:bold;
+}
+.to-register{
+    font-weight:bolder;
+    padding:25px 0 0 0;
+}
+.to-register a{
+    text-decoration: none;
+    color:#4000ff;
+}
+
+.checkbox-holder input{
+    width:auto;
+}

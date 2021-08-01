@@ -1,0 +1,11 @@
+.checkout-steps-nav{
+    margin:30px 0 0 0;
+}
+.checkout-steps-item{
+    margin:0 10px 0 0;
+    font-size:1.1em;
+    font-weight:bold;
+}
+.checkout-steps-item a{
+    text-decoration:none;
+}

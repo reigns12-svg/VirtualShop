@@ -1,0 +1,125 @@
+.topnav {
+    background-color:#4000ff;
+    overflow: hidden;
+    clear:both;
+  }
+  
+
+  .home-link {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    font-size:1.4em;
+  }
+
+  .login-link {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:1.4em;
+  }
+  .dropdown{
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:1.4em;
+    font-weight:bold;
+  }
+  .dropdown-content{
+    margin-top:13px;
+    display:none;
+    position:absolute;
+    
+    z-index:1;
+  }
+  .dropdown-content1{
+    z-index:1;
+    padding: 12px 16px; 
+    border:1px solid #4000ff;
+    background-color: #f1ffff;
+    color: #4000ff;
+  }
+  .dropdown-content1 a{
+    text-decoration: none;
+  }
+  .cart-link {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:1.4em;
+  }
+  .dropdown:hover{
+    background-color: #f1ffff;
+    color: #4000ff;
+    
+  }
+ .dropdown:hover .dropdown-content{
+   display:block;
+ }
+  .topnav a:hover {
+    background-color: #f1ffff;
+    color: #4000ff;
+  } 
+  
+
+  .icon{
+    display: none;
+    float: right;
+  }
+  .admin-links{
+   padding-right:0;
+   right:0;
+  }
+  @media (max-width: 750px) {
+    .home-link{display: inline-block;}
+    .cart-link{display: none;}
+    .login-link{display: none;}
+    .dropdown{
+      display:none;
+    }
+     .icon{
+         color:white;      
+      display: inline-block;
+    }
+  }
+
+  @media (max-width: 750px) {
+    
+    .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+      font-size:1.3em;
+      margin-top: 20px;
+      margin-right:10px;
+    }
+    .responsive .cart-link {
+      clear:both;
+      display: block;
+      text-align: right;
+    }
+    .responsive .login-link{
+        
+        clear:both;
+      display: block;
+      text-align: right;
+    }
+    .responsive .dropdown{
+      clear:both;
+      display: block;
+      text-align: right;
+    }
+  }
